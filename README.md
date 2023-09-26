@@ -157,7 +157,7 @@ print(sales_profit_by_segment[['Segment', 'Sales_to_Profit_Ratio']])
 
 Summary
 
-Based on my finding the store has higher profits from the product sales for consumers, but the profit from corporate product sales is better in the sales-to-profit ratio.
+Based on my analysis the store has higher profits from the product sales for consumers, but the profit from corporate product sales is better in the sales-to-profit ratio.
 
 
 
