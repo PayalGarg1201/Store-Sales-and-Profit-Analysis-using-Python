@@ -3,10 +3,10 @@ Store Sales and Profit Analysis using Python
 
 Problem Statement : 
 
-To find some Business Insights to improve. With growing demands and cut-throat competitions in the market, a Superstore Giant is seeking your knowledge in understanding what works best for them. They would like to understand which products, regions, categories and customer segments they should target or avoid.
+To find some Business Insights to improve  store sales and profit. With growing demands and cut-throat competitions in the market, a Superstore Giant is seeking your knowledge in understanding what works best for them. They would like to understand which products, regions, categories and customer segments they should target or avoid.
 
 Dataset is taken form Kaggle https://www.kaggle.com/datasets/vivek468/superstore-dataset-final.
-
+ 
 Store sales and profit analysis is the task of analyzing the performance of a retail store in terms of its sales and profits. It helps businesses identify areas for improvement and make data-driven decisions to optimize their operations, pricing, marketing, and inventory management strategies to drive revenue and growth. 
 
 <img width="664" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/34175d76-d8af-4bfb-8dec-97dac1e7827e">
@@ -134,7 +134,30 @@ fig.show()
 
 
 
+ 
+Validate the findings:
 
+
+
+
+sales_profit_by_segment = data.groupby('Segment').agg({'Sales': 'sum', 'Profit': 'sum'}).reset_index()
+sales_profit_by_segment['Sales_to_Profit_Ratio'] = sales_profit_by_segment['Sales'] / sales_profit_by_segment['Profit']
+print(sales_profit_by_segment[['Segment', 'Sales_to_Profit_Ratio']])
+
+
+
+
+<img width="482" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/3eff6381-eba9-44f8-ad37-8c4109190ee0">
+
+
+
+
+
+
+
+Summary
+
+Based on my finding the store has higher profits from the product sales for consumers, but the profit from corporate product sales is better in the sales-to-profit ratio.
 
 
 
