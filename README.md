@@ -105,6 +105,32 @@ Profit by Subcategory
 
 
 
+sales and profit analysis by customer segments:
+
+sales_profit_by_segment = data.groupby('Segment').agg({'Sales': 'sum', 'Profit': 'sum'}).reset_index()
+
+color_palette = colors.qualitative.Pastel
+
+fig = go.Figure()
+fig.add_trace(go.Bar(x=sales_profit_by_segment['Segment'], 
+                     y=sales_profit_by_segment['Sales'], 
+                     name='Sales',
+                     marker_color=color_palette[0]))
+fig.add_trace(go.Bar(x=sales_profit_by_segment['Segment'], 
+                     y=sales_profit_by_segment['Profit'], 
+                     name='Profit',
+                     marker_color=color_palette[1]))
+
+fig.update_layout(title='Sales and Profit Analysis by Customer Segment',
+                  xaxis_title='Customer Segment', yaxis_title='Amount')
+
+fig.show()
+
+
+
+
+
+![image](https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/2bc5d79b-7a29-4958-981b-77864396a8d3)
 
 
 
