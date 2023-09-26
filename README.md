@@ -54,6 +54,28 @@ The dataset has an order date column. We can use this column to create new colum
 
 
 
+Sales by Sub category : 
+
+
+<img width="666" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/207eb22a-e53f-4a9a-862a-22cc8abc16ea">
+
+
+
+
+
+<img width="647" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/38edf55e-d26c-4195-a0f1-778b5d92bbd1">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
