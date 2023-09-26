@@ -69,6 +69,46 @@ Sales by Sub category :
 
 
 
+Monthly profit 
+
+<img width="677" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/f02f6965-2a80-442b-9153-8562e94a4a3c">
+
+
+
+
+
+<img width="636" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/e059b3cc-fedb-4329-b862-1089569696af">
+
+
+
+
+
+Profit by category 
+
+<img width="662" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/12e2fb3a-f737-4345-8da7-58a9a7209b15">
+
+
+
+
+
+Profit by Subcategory
+
+<img width="660" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/44484c49-04c0-47d1-a561-8676d53d1b15">
+
+
+
+
+
+<img width="640" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/09da424f-9ce4-4be4-89bc-dec46a32ab15">
+
+
+
+
+
+
+
+
+
 
 
 
