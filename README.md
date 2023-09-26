@@ -13,7 +13,13 @@ Store sales and profit analysis is the task of analyzing the performance of a re
 
 
   
-  <img width="524" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/9d2e5dca-2110-4c4d-bf5a-0a1c9390f26b">
+  
+  <img width="524" alt="image" src="https://github.com/PayalGarg1201/Store-Sales-and-Profit-Analysis-using-Python/assets/133757186/8eef5243-1d09-4b9b-822e-d582d74277fe">
+
+
+
+
+  
 
 
 
